@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Pré-Matrícula</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; text-decoration: dashed;"><strong>Formulário para Pré-Matrícula</strong><img src="/download.png" id="lebron"></h1><br>
+    </header>
+    <div id="area-principal">
+        <form id="formulario" autocomplete="off">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <label>Nome Completo*:</label><br><input class="campo_nome" type="text"><br>
+                <legend>Gênero*:</legend>
+                <select name="Genero" id="Genero">
+                    <option value="1">MASCULINO</option>
+                    <option value="2">FEMININO</option>
+                </select>
+                <legend>Raça/Cor*:</legend>
+                <select name="raca" id="raca">
+                    <option value="1">BRANCA</option>
+                    <option value="2">PRETA</option>
+                    <option value="3">INDÍGENA</option>
+                    <option value="4">AMARELA</option>
+                    <option value="5">PARDA</option>
+                    <option value="6">ÁRABE</option>
+                </select>
+                <legend>Data de Nascimento*:</legend><input class="data" type="date"><br>
+                <legend>Filiação 1 (Pai ou Mãe)*</legend><input class="filiacao" type="text"><br>
+                <legend>Contato: </legend><input class="numero1" type="text"><br>
+                <legend>Filiação 2 (Pai ou Mãe)</legend><input class="filiacao" type="text"><br>
+                <legend>Contato: </legend><input class="numero1" type="text"><br>
+                <legend><button>Inscrever-se</button></legend>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
